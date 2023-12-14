@@ -13,7 +13,7 @@ public class FractionsQuiz
             Fraction a = new Fraction();
             Fraction b = new Fraction();
             Fraction truanswer = new Fraction();
-            int symbol = (int) Math.random()*4;
+            int symbol = (int) (Math.random()*4);
             if (symbol == 0){
                 truanswer = Fraction.add(a,b);
                 System.out.print(a +  " + " + b + " = ");
