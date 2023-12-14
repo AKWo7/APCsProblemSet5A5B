@@ -93,6 +93,9 @@ public class Fraction
      * @return The Greatest Common Factor.
      */
     private int gcf(int a, int b){
+        if ( a == 0 || b == 0){
+            return 1;
+        }
         while(a!=b){
             if(a>b){
                 a-=b;
